@@ -1,0 +1,489 @@
+{
+  "language": "Cham",
+  "corpus_stats": {
+    "n_documents": 11481,
+    "total_tokens": 9845629,
+    "vocabulary_size": 56080,
+    "script": "latin",
+    "sentence_splitter": "Latin .!?…"
+  },
+  "text_metrics": {
+    "word_count": {
+      "mean": 857.558488,
+      "median": 813.0,
+      "std": 366.190606,
+      "min": 0.0,
+      "max": 3197.0,
+      "q1": 664.0,
+      "q3": 949.0
+    },
+    "unique_words": {
+      "mean": 320.531138,
+      "median": 308.0,
+      "std": 126.542289,
+      "min": 0.0,
+      "max": 949.0,
+      "q1": 235.0,
+      "q3": 376.0
+    },
+    "char_count": {
+      "mean": 4295.723805,
+      "median": 4120.0,
+      "std": 1716.931933,
+      "min": 0.0,
+      "max": 14955.0,
+      "q1": 3362.0,
+      "q3": 4784.0
+    },
+    "sent_count": {
+      "mean": 26.244839,
+      "median": 25.0,
+      "std": 10.782886,
+      "min": 0.0,
+      "max": 126.0,
+      "q1": 20.0,
+      "q3": 29.0
+    },
+    "para_count": {
+      "mean": 15.725547,
+      "median": 9.0,
+      "std": 18.968331,
+      "min": 0.0,
+      "max": 209.0,
+      "q1": 8.0,
+      "q3": 12.0
+    },
+    "type_token_ratio": {
+      "mean": 0.378615,
+      "median": 0.378758,
+      "std": 0.066306,
+      "min": 0.0,
+      "max": 1.0,
+      "q1": 0.337838,
+      "q3": 0.416667
+    },
+    "avg_word_len": {
+      "mean": 3.880349,
+      "median": 3.909649,
+      "std": 0.322242,
+      "min": 0.0,
+      "max": 5.120235,
+      "q1": 3.821705,
+      "q3": 3.99177
+    },
+    "avg_sent_len": {
+      "mean": 33.051428,
+      "median": 33.0,
+      "std": 7.29011,
+      "min": 0.0,
+      "max": 84.428571,
+      "q1": 28.884615,
+      "q3": 37.15
+    }
+  },
+  "bpe_stats": {
+    "model": "xlm-roberta-base",
+    "special_tokens": "excluded",
+    "total_bpe_tokens": 15706638,
+    "unique_bpe_vocab": 20395,
+    "bpe_token_count": {
+      "mean": 1368.054873,
+      "median": 1329.0,
+      "std": 491.496973,
+      "min": 0.0,
+      "max": 4209.0,
+      "q1": 1098.0,
+      "q3": 1531.0
+    },
+    "bpe_fertility": {
+      "mean": 1.61391,
+      "median": 1.628062,
+      "std": 0.15296,
+      "min": 0.0,
+      "max": 2.192082,
+      "q1": 1.582668,
+      "q3": 1.676976
+    },
+    "bpe_type_token_ratio": {
+      "mean": 0.302738,
+      "median": 0.301099,
+      "std": 0.055791,
+      "min": 0.0,
+      "max": 1.0,
+      "q1": 0.270974,
+      "q3": 0.330549
+    },
+    "top_30_bpe_subwords": [
+      {
+        "token": ",",
+        "count": 574529
+      },
+      {
+        "token": "▁",
+        "count": 306123
+      },
+      {
+        "token": "ak",
+        "count": 289217
+      },
+      {
+        "token": ".",
+        "count": 286512
+      },
+      {
+        "token": "ong",
+        "count": 251625
+      },
+      {
+        "token": "▁di",
+        "count": 250132
+      },
+      {
+        "token": "h",
+        "count": 245121
+      },
+      {
+        "token": "i",
+        "count": 236951
+      },
+      {
+        "token": "▁hu",
+        "count": 222838
+      },
+      {
+        "token": "▁sa",
+        "count": 192186
+      },
+      {
+        "token": "ok",
+        "count": 189704
+      },
+      {
+        "token": "▁ng",
+        "count": 162536
+      },
+      {
+        "token": "▁bruk",
+        "count": 155928
+      },
+      {
+        "token": "▁dom",
+        "count": 154087
+      },
+      {
+        "token": "u",
+        "count": 151677
+      },
+      {
+        "token": "ih",
+        "count": 140189
+      },
+      {
+        "token": "▁pa",
+        "count": 132782
+      },
+      {
+        "token": "▁ka",
+        "count": 127876
+      },
+      {
+        "token": "k",
+        "count": 124405
+      },
+      {
+        "token": "▁urang",
+        "count": 119129
+      },
+      {
+        "token": "n",
+        "count": 118602
+      },
+      {
+        "token": "ng",
+        "count": 118448
+      },
+      {
+        "token": "▁da",
+        "count": 116823
+      },
+      {
+        "token": "▁lac",
+        "count": 96821
+      },
+      {
+        "token": "▁dalam",
+        "count": 87077
+      },
+      {
+        "token": "▁ya",
+        "count": 82196
+      },
+      {
+        "token": "▁brei",
+        "count": 82019
+      },
+      {
+        "token": "a",
+        "count": 80506
+      },
+      {
+        "token": "ei",
+        "count": 77684
+      },
+      {
+        "token": "uk",
+        "count": 76863
+      }
+    ]
+  },
+  "vocab_extension": {
+    "fragmentation_ratio": {
+      "mean": 1.622815,
+      "median": 1.628465,
+      "std": 0.095256,
+      "min": 1.160832,
+      "max": 2.192082,
+      "q1": 1.5839,
+      "q3": 1.677377
+    },
+    "long_split_ratio": {
+      "mean": 0.014977,
+      "median": 0.013284,
+      "std": 0.009588,
+      "min": 0.0,
+      "max": 0.25,
+      "q1": 0.009379,
+      "q3": 0.018519
+    },
+    "tokenizer_coverage": {
+      "mean": 0.478496,
+      "median": 0.469163,
+      "std": 0.076496,
+      "min": 0.0,
+      "max": 0.860286,
+      "q1": 0.430128,
+      "q3": 0.509842
+    },
+    "threshold_fragmentation": 2.0,
+    "threshold_long_split": 0.3,
+    "threshold_coverage": 0.5,
+    "n_signals_triggered": 1,
+    "signals": [
+      "Tokenizer coverage 0.48 < 0.50 → <50% single-token words"
+    ],
+    "recommendation": "CONSIDER extending vocabulary — marginal signal"
+  },
+  "category_distribution": {
+    "TIN_TUC-SU_KIEN": 5468,
+    "VAN_DE_DONG_BAO_CHAM_QUAN_TAM": 3349,
+    "THAY_THUOC_CUA_BAN": 585,
+    "CAC_DAN_TOC_VIET_NAM": 560,
+    "PHAP_LUAT-CUOC_SONG": 511,
+    "NGUOI_TOT_VIEC_TOT": 478,
+    "NHA_NONG_CAN_BIET": 376,
+    "BAO_TON_VAN_HOA_CHAM": 101,
+    "VIET_NAM-KY_NGUYEN_VUON_MINH": 53
+  },
+  "top_50_words": [
+    {
+      "word": "di",
+      "count": 249004
+    },
+    {
+      "word": "hu",
+      "count": 223152
+    },
+    {
+      "word": "dom",
+      "count": 167005
+    },
+    {
+      "word": "bruk",
+      "count": 165505
+    },
+    {
+      "word": "ngak",
+      "count": 162500
+    },
+    {
+      "word": "urang",
+      "count": 127764
+    },
+    {
+      "word": "saong",
+      "count": 109550
+    },
+    {
+      "word": "ka",
+      "count": 109337
+    },
+    {
+      "word": "dalam",
+      "count": 98432
+    },
+    {
+      "word": "lac",
+      "count": 97901
+    },
+    {
+      "word": "brei",
+      "count": 83407
+    },
+    {
+      "word": "nan",
+      "count": 74141
+    },
+    {
+      "word": "ini",
+      "count": 69326
+    },
+    {
+      "word": "daok",
+      "count": 66320
+    },
+    {
+      "word": "meng",
+      "count": 64011
+    },
+    {
+      "word": "tal",
+      "count": 60700
+    },
+    {
+      "word": "piah",
+      "count": 57253
+    },
+    {
+      "word": "thun",
+      "count": 55391
+    },
+    {
+      "word": "mbang",
+      "count": 54902
+    },
+    {
+      "word": "sang",
+      "count": 54389
+    },
+    {
+      "word": "harei",
+      "count": 51478
+    },
+    {
+      "word": "oh",
+      "count": 48122
+    },
+    {
+      "word": "ba",
+      "count": 47627
+    },
+    {
+      "word": "tỉnh",
+      "count": 46127
+    },
+    {
+      "word": "sa",
+      "count": 45965
+    },
+    {
+      "word": "tabiak",
+      "count": 45594
+    },
+    {
+      "word": "tui",
+      "count": 45405
+    },
+    {
+      "word": "tuk",
+      "count": 45268
+    },
+    {
+      "word": "jalan",
+      "count": 44742
+    },
+    {
+      "word": "tame",
+      "count": 44705
+    },
+    {
+      "word": "jeng",
+      "count": 44669
+    },
+    {
+      "word": "abih",
+      "count": 43938
+    },
+    {
+      "word": "peih",
+      "count": 41395
+    },
+    {
+      "word": "thau",
+      "count": 40437
+    },
+    {
+      "word": "iek",
+      "count": 39191
+    },
+    {
+      "word": "rilo",
+      "count": 38628
+    },
+    {
+      "word": "ia",
+      "count": 37710
+    },
+    {
+      "word": "jien",
+      "count": 37387
+    },
+    {
+      "word": "labik",
+      "count": 36970
+    },
+    {
+      "word": "njauk",
+      "count": 36405
+    },
+    {
+      "word": "ruak",
+      "count": 35511
+    },
+    {
+      "word": "ban",
+      "count": 34050
+    },
+    {
+      "word": "gah",
+      "count": 32345
+    },
+    {
+      "word": "palei",
+      "count": 31839
+    },
+    {
+      "word": "haong",
+      "count": 31736
+    },
+    {
+      "word": "taneh",
+      "count": 31300
+    },
+    {
+      "word": "yau",
+      "count": 30927
+    },
+    {
+      "word": "daong",
+      "count": 30426
+    },
+    {
+      "word": "ye",
+      "count": 28120
+    },
+    {
+      "word": "nao",
+      "count": 28031
+    }
+  ]
+}

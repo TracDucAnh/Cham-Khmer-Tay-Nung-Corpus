@@ -1,0 +1,1562 @@
+{
+  "languages": [
+    "Cham",
+    "Khmer",
+    "Tay Nung"
+  ],
+  "per_language_summary": {
+    "Cham": {
+      "n_documents": 11481,
+      "total_tokens": 9845629,
+      "vocabulary_size": 56080,
+      "mean_word_count": 857.558488,
+      "mean_sent_count": 26.244839,
+      "mean_type_token_ratio": 0.378615,
+      "mean_avg_word_len": 3.880349,
+      "mean_bpe_fertility": 1.61391,
+      "mean_fragmentation_ratio": 1.622815,
+      "mean_long_split_ratio": 0.014977,
+      "mean_tokenizer_coverage": 0.478496,
+      "vocab_recommendation": "CONSIDER extending vocabulary — marginal signal"
+    },
+    "Khmer": {
+      "n_documents": 27808,
+      "total_tokens": 8481183,
+      "vocabulary_size": 70902,
+      "mean_word_count": 304.990758,
+      "mean_sent_count": 10.575266,
+      "mean_type_token_ratio": 0.592683,
+      "mean_avg_word_len": 5.182339,
+      "mean_bpe_fertility": 1.835851,
+      "mean_fragmentation_ratio": 1.835851,
+      "mean_long_split_ratio": 0.449924,
+      "mean_tokenizer_coverage": 0.240108,
+      "vocab_recommendation": "EXTEND VOCABULARY — strong evidence of poor tokenizer coverage"
+    },
+    "Tay Nung": {
+      "n_documents": 5078,
+      "total_tokens": 2222320,
+      "vocabulary_size": 10309,
+      "mean_word_count": 437.636865,
+      "mean_sent_count": 13.487003,
+      "mean_type_token_ratio": 0.514437,
+      "mean_avg_word_len": 3.313542,
+      "mean_bpe_fertility": 1.878785,
+      "mean_fragmentation_ratio": 1.878785,
+      "mean_long_split_ratio": 0.041723,
+      "mean_tokenizer_coverage": 0.406912,
+      "vocab_recommendation": "CONSIDER extending vocabulary — marginal signal"
+    }
+  },
+  "vocabulary_overlap_jaccard": {
+    "Cham": {
+      "Cham": 1.0,
+      "Khmer": 0.0,
+      "Tay Nung": 0.0
+    },
+    "Khmer": {
+      "Cham": 0.0,
+      "Khmer": 1.0,
+      "Tay Nung": 0.0
+    },
+    "Tay Nung": {
+      "Cham": 0.0,
+      "Khmer": 0.0,
+      "Tay Nung": 1.0
+    }
+  },
+  "full_stats": {
+    "Cham": {
+      "language": "Cham",
+      "corpus_stats": {
+        "n_documents": 11481,
+        "total_tokens": 9845629,
+        "vocabulary_size": 56080,
+        "script": "latin",
+        "sentence_splitter": "Latin .!?…"
+      },
+      "text_metrics": {
+        "word_count": {
+          "mean": 857.558488,
+          "median": 813.0,
+          "std": 366.190606,
+          "min": 0.0,
+          "max": 3197.0,
+          "q1": 664.0,
+          "q3": 949.0
+        },
+        "unique_words": {
+          "mean": 320.531138,
+          "median": 308.0,
+          "std": 126.542289,
+          "min": 0.0,
+          "max": 949.0,
+          "q1": 235.0,
+          "q3": 376.0
+        },
+        "char_count": {
+          "mean": 4295.723805,
+          "median": 4120.0,
+          "std": 1716.931933,
+          "min": 0.0,
+          "max": 14955.0,
+          "q1": 3362.0,
+          "q3": 4784.0
+        },
+        "sent_count": {
+          "mean": 26.244839,
+          "median": 25.0,
+          "std": 10.782886,
+          "min": 0.0,
+          "max": 126.0,
+          "q1": 20.0,
+          "q3": 29.0
+        },
+        "para_count": {
+          "mean": 15.725547,
+          "median": 9.0,
+          "std": 18.968331,
+          "min": 0.0,
+          "max": 209.0,
+          "q1": 8.0,
+          "q3": 12.0
+        },
+        "type_token_ratio": {
+          "mean": 0.378615,
+          "median": 0.378758,
+          "std": 0.066306,
+          "min": 0.0,
+          "max": 1.0,
+          "q1": 0.337838,
+          "q3": 0.416667
+        },
+        "avg_word_len": {
+          "mean": 3.880349,
+          "median": 3.909649,
+          "std": 0.322242,
+          "min": 0.0,
+          "max": 5.120235,
+          "q1": 3.821705,
+          "q3": 3.99177
+        },
+        "avg_sent_len": {
+          "mean": 33.051428,
+          "median": 33.0,
+          "std": 7.29011,
+          "min": 0.0,
+          "max": 84.428571,
+          "q1": 28.884615,
+          "q3": 37.15
+        }
+      },
+      "bpe_stats": {
+        "model": "xlm-roberta-base",
+        "special_tokens": "excluded",
+        "total_bpe_tokens": 15706638,
+        "unique_bpe_vocab": 20395,
+        "bpe_token_count": {
+          "mean": 1368.054873,
+          "median": 1329.0,
+          "std": 491.496973,
+          "min": 0.0,
+          "max": 4209.0,
+          "q1": 1098.0,
+          "q3": 1531.0
+        },
+        "bpe_fertility": {
+          "mean": 1.61391,
+          "median": 1.628062,
+          "std": 0.15296,
+          "min": 0.0,
+          "max": 2.192082,
+          "q1": 1.582668,
+          "q3": 1.676976
+        },
+        "bpe_type_token_ratio": {
+          "mean": 0.302738,
+          "median": 0.301099,
+          "std": 0.055791,
+          "min": 0.0,
+          "max": 1.0,
+          "q1": 0.270974,
+          "q3": 0.330549
+        },
+        "top_30_bpe_subwords": [
+          {
+            "token": ",",
+            "count": 574529
+          },
+          {
+            "token": "▁",
+            "count": 306123
+          },
+          {
+            "token": "ak",
+            "count": 289217
+          },
+          {
+            "token": ".",
+            "count": 286512
+          },
+          {
+            "token": "ong",
+            "count": 251625
+          },
+          {
+            "token": "▁di",
+            "count": 250132
+          },
+          {
+            "token": "h",
+            "count": 245121
+          },
+          {
+            "token": "i",
+            "count": 236951
+          },
+          {
+            "token": "▁hu",
+            "count": 222838
+          },
+          {
+            "token": "▁sa",
+            "count": 192186
+          },
+          {
+            "token": "ok",
+            "count": 189704
+          },
+          {
+            "token": "▁ng",
+            "count": 162536
+          },
+          {
+            "token": "▁bruk",
+            "count": 155928
+          },
+          {
+            "token": "▁dom",
+            "count": 154087
+          },
+          {
+            "token": "u",
+            "count": 151677
+          },
+          {
+            "token": "ih",
+            "count": 140189
+          },
+          {
+            "token": "▁pa",
+            "count": 132782
+          },
+          {
+            "token": "▁ka",
+            "count": 127876
+          },
+          {
+            "token": "k",
+            "count": 124405
+          },
+          {
+            "token": "▁urang",
+            "count": 119129
+          },
+          {
+            "token": "n",
+            "count": 118602
+          },
+          {
+            "token": "ng",
+            "count": 118448
+          },
+          {
+            "token": "▁da",
+            "count": 116823
+          },
+          {
+            "token": "▁lac",
+            "count": 96821
+          },
+          {
+            "token": "▁dalam",
+            "count": 87077
+          },
+          {
+            "token": "▁ya",
+            "count": 82196
+          },
+          {
+            "token": "▁brei",
+            "count": 82019
+          },
+          {
+            "token": "a",
+            "count": 80506
+          },
+          {
+            "token": "ei",
+            "count": 77684
+          },
+          {
+            "token": "uk",
+            "count": 76863
+          }
+        ]
+      },
+      "vocab_extension": {
+        "fragmentation_ratio": {
+          "mean": 1.622815,
+          "median": 1.628465,
+          "std": 0.095256,
+          "min": 1.160832,
+          "max": 2.192082,
+          "q1": 1.5839,
+          "q3": 1.677377
+        },
+        "long_split_ratio": {
+          "mean": 0.014977,
+          "median": 0.013284,
+          "std": 0.009588,
+          "min": 0.0,
+          "max": 0.25,
+          "q1": 0.009379,
+          "q3": 0.018519
+        },
+        "tokenizer_coverage": {
+          "mean": 0.478496,
+          "median": 0.469163,
+          "std": 0.076496,
+          "min": 0.0,
+          "max": 0.860286,
+          "q1": 0.430128,
+          "q3": 0.509842
+        },
+        "threshold_fragmentation": 2.0,
+        "threshold_long_split": 0.3,
+        "threshold_coverage": 0.5,
+        "n_signals_triggered": 1,
+        "signals": [
+          "Tokenizer coverage 0.48 < 0.50 → <50% single-token words"
+        ],
+        "recommendation": "CONSIDER extending vocabulary — marginal signal"
+      },
+      "category_distribution": {
+        "TIN_TUC-SU_KIEN": 5468,
+        "VAN_DE_DONG_BAO_CHAM_QUAN_TAM": 3349,
+        "THAY_THUOC_CUA_BAN": 585,
+        "CAC_DAN_TOC_VIET_NAM": 560,
+        "PHAP_LUAT-CUOC_SONG": 511,
+        "NGUOI_TOT_VIEC_TOT": 478,
+        "NHA_NONG_CAN_BIET": 376,
+        "BAO_TON_VAN_HOA_CHAM": 101,
+        "VIET_NAM-KY_NGUYEN_VUON_MINH": 53
+      },
+      "top_50_words": [
+        {
+          "word": "di",
+          "count": 249004
+        },
+        {
+          "word": "hu",
+          "count": 223152
+        },
+        {
+          "word": "dom",
+          "count": 167005
+        },
+        {
+          "word": "bruk",
+          "count": 165505
+        },
+        {
+          "word": "ngak",
+          "count": 162500
+        },
+        {
+          "word": "urang",
+          "count": 127764
+        },
+        {
+          "word": "saong",
+          "count": 109550
+        },
+        {
+          "word": "ka",
+          "count": 109337
+        },
+        {
+          "word": "dalam",
+          "count": 98432
+        },
+        {
+          "word": "lac",
+          "count": 97901
+        },
+        {
+          "word": "brei",
+          "count": 83407
+        },
+        {
+          "word": "nan",
+          "count": 74141
+        },
+        {
+          "word": "ini",
+          "count": 69326
+        },
+        {
+          "word": "daok",
+          "count": 66320
+        },
+        {
+          "word": "meng",
+          "count": 64011
+        },
+        {
+          "word": "tal",
+          "count": 60700
+        },
+        {
+          "word": "piah",
+          "count": 57253
+        },
+        {
+          "word": "thun",
+          "count": 55391
+        },
+        {
+          "word": "mbang",
+          "count": 54902
+        },
+        {
+          "word": "sang",
+          "count": 54389
+        },
+        {
+          "word": "harei",
+          "count": 51478
+        },
+        {
+          "word": "oh",
+          "count": 48122
+        },
+        {
+          "word": "ba",
+          "count": 47627
+        },
+        {
+          "word": "tỉnh",
+          "count": 46127
+        },
+        {
+          "word": "sa",
+          "count": 45965
+        },
+        {
+          "word": "tabiak",
+          "count": 45594
+        },
+        {
+          "word": "tui",
+          "count": 45405
+        },
+        {
+          "word": "tuk",
+          "count": 45268
+        },
+        {
+          "word": "jalan",
+          "count": 44742
+        },
+        {
+          "word": "tame",
+          "count": 44705
+        },
+        {
+          "word": "jeng",
+          "count": 44669
+        },
+        {
+          "word": "abih",
+          "count": 43938
+        },
+        {
+          "word": "peih",
+          "count": 41395
+        },
+        {
+          "word": "thau",
+          "count": 40437
+        },
+        {
+          "word": "iek",
+          "count": 39191
+        },
+        {
+          "word": "rilo",
+          "count": 38628
+        },
+        {
+          "word": "ia",
+          "count": 37710
+        },
+        {
+          "word": "jien",
+          "count": 37387
+        },
+        {
+          "word": "labik",
+          "count": 36970
+        },
+        {
+          "word": "njauk",
+          "count": 36405
+        },
+        {
+          "word": "ruak",
+          "count": 35511
+        },
+        {
+          "word": "ban",
+          "count": 34050
+        },
+        {
+          "word": "gah",
+          "count": 32345
+        },
+        {
+          "word": "palei",
+          "count": 31839
+        },
+        {
+          "word": "haong",
+          "count": 31736
+        },
+        {
+          "word": "taneh",
+          "count": 31300
+        },
+        {
+          "word": "yau",
+          "count": 30927
+        },
+        {
+          "word": "daong",
+          "count": 30426
+        },
+        {
+          "word": "ye",
+          "count": 28120
+        },
+        {
+          "word": "nao",
+          "count": 28031
+        }
+      ]
+    },
+    "Khmer": {
+      "language": "Khmer",
+      "corpus_stats": {
+        "n_documents": 27808,
+        "total_tokens": 8481183,
+        "vocabulary_size": 70902,
+        "script": "khmer",
+        "sentence_splitter": "Khmer ។/៕"
+      },
+      "text_metrics": {
+        "word_count": {
+          "mean": 304.990758,
+          "median": 218.0,
+          "std": 222.26248,
+          "min": 3.0,
+          "max": 5351.0,
+          "q1": 153.0,
+          "q3": 445.0
+        },
+        "unique_words": {
+          "mean": 160.490219,
+          "median": 133.0,
+          "std": 79.42627,
+          "min": 3.0,
+          "max": 993.0,
+          "q1": 101.0,
+          "q3": 221.0
+        },
+        "char_count": {
+          "mean": 1806.435666,
+          "median": 1294.0,
+          "std": 1315.428054,
+          "min": 11.0,
+          "max": 29983.0,
+          "q1": 897.75,
+          "q3": 2691.0
+        },
+        "sent_count": {
+          "mean": 10.575266,
+          "median": 7.0,
+          "std": 8.881478,
+          "min": 1.0,
+          "max": 179.0,
+          "q1": 4.0,
+          "q3": 16.0
+        },
+        "para_count": {
+          "mean": 4.096519,
+          "median": 3.0,
+          "std": 2.934689,
+          "min": 1.0,
+          "max": 99.0,
+          "q1": 2.0,
+          "q3": 5.0
+        },
+        "type_token_ratio": {
+          "mean": 0.592683,
+          "median": 0.595745,
+          "std": 0.114047,
+          "min": 0.087116,
+          "max": 1.0,
+          "q1": 0.505319,
+          "q3": 0.671875
+        },
+        "avg_word_len": {
+          "mean": 5.182339,
+          "median": 5.201457,
+          "std": 0.44049,
+          "min": 2.2,
+          "max": 7.296296,
+          "q1": 4.873062,
+          "q3": 5.494429
+        },
+        "avg_sent_len": {
+          "mean": 31.747934,
+          "median": 29.857143,
+          "std": 10.197299,
+          "min": 3.0,
+          "max": 174.0,
+          "q1": 24.8,
+          "q3": 36.7
+        }
+      },
+      "bpe_stats": {
+        "model": "xlm-roberta-base",
+        "special_tokens": "excluded",
+        "total_bpe_tokens": 16168887,
+        "unique_bpe_vocab": 15640,
+        "bpe_token_count": {
+          "mean": 581.447317,
+          "median": 376.0,
+          "std": 463.891574,
+          "min": 6.0,
+          "max": 9668.0,
+          "q1": 257.0,
+          "q3": 922.0
+        },
+        "bpe_fertility": {
+          "mean": 1.835851,
+          "median": 1.719424,
+          "std": 0.336027,
+          "min": 1.118421,
+          "max": 4.12,
+          "q1": 1.609623,
+          "q3": 1.957567
+        },
+        "bpe_type_token_ratio": {
+          "mean": 0.518963,
+          "median": 0.55,
+          "std": 0.156914,
+          "min": 0.058299,
+          "max": 1.0,
+          "q1": 0.382898,
+          "q3": 0.638462
+        },
+        "top_30_bpe_subwords": [
+          {
+            "token": "▁",
+            "count": 1441711
+          },
+          {
+            "token": "។",
+            "count": 198303
+          },
+          {
+            "token": "▁និង",
+            "count": 161122
+          },
+          {
+            "token": "ស",
+            "count": 118760
+          },
+          {
+            "token": "រ",
+            "count": 104714
+          },
+          {
+            "token": "ការ",
+            "count": 97264
+          },
+          {
+            "token": "▁ការ",
+            "count": 96676
+          },
+          {
+            "token": "ម",
+            "count": 94703
+          },
+          {
+            "token": "ប",
+            "count": 92802
+          },
+          {
+            "token": "▁ប្រ",
+            "count": 89640
+          },
+          {
+            "token": "▁បាន",
+            "count": 88711
+          },
+          {
+            "token": "ក",
+            "count": 84027
+          },
+          {
+            "token": "▁ជា",
+            "count": 80013
+          },
+          {
+            "token": "ណ",
+            "count": 79037
+          },
+          {
+            "token": "ង",
+            "count": 75671
+          },
+          {
+            "token": "ា",
+            "count": 75129
+          },
+          {
+            "token": "ល",
+            "count": 71939
+          },
+          {
+            "token": "ន",
+            "count": 70005
+          },
+          {
+            "token": "ជា",
+            "count": 69984
+          },
+          {
+            "token": "បាន",
+            "count": 69609
+          },
+          {
+            "token": "្",
+            "count": 69594
+          },
+          {
+            "token": "ប្រ",
+            "count": 63754
+          },
+          {
+            "token": "ហ",
+            "count": 60991
+          },
+          {
+            "token": "ភាព",
+            "count": 60904
+          },
+          {
+            "token": "ត",
+            "count": 58567
+          },
+          {
+            "token": "របស់",
+            "count": 57169
+          },
+          {
+            "token": "▁នៅ",
+            "count": 56153
+          },
+          {
+            "token": "ិ",
+            "count": 55692
+          },
+          {
+            "token": "▁ក្នុង",
+            "count": 55291
+          },
+          {
+            "token": "▁មាន",
+            "count": 54076
+          }
+        ]
+      },
+      "vocab_extension": {
+        "fragmentation_ratio": {
+          "mean": 1.835851,
+          "median": 1.719424,
+          "std": 0.336027,
+          "min": 1.118421,
+          "max": 4.12,
+          "q1": 1.609623,
+          "q3": 1.957567
+        },
+        "long_split_ratio": {
+          "mean": 0.449924,
+          "median": 0.515915,
+          "std": 0.246265,
+          "min": 0.0,
+          "max": 1.0,
+          "q1": 0.340909,
+          "q3": 0.622327
+        },
+        "tokenizer_coverage": {
+          "mean": 0.240108,
+          "median": 0.2,
+          "std": 0.158924,
+          "min": 0.0,
+          "max": 0.797153,
+          "q1": 0.115385,
+          "q3": 0.352662
+        },
+        "threshold_fragmentation": 2.0,
+        "threshold_long_split": 0.3,
+        "threshold_coverage": 0.5,
+        "n_signals_triggered": 2,
+        "signals": [
+          "Long-split ratio 0.45 > 0.30 → many words split >3 pieces",
+          "Tokenizer coverage 0.24 < 0.50 → <50% single-token words"
+        ],
+        "recommendation": "EXTEND VOCABULARY — strong evidence of poor tokenizer coverage"
+      },
+      "category_distribution": {
+        "ពតមន": 16445,
+        "": 6860,
+        "កររកឃញវតណម": 697,
+        "បទយកករណថងសរ": 602,
+        "មនសសវតណម": 584,
+        "សដឋកចចវតណម": 513,
+        "ពណរបសជនជតទង៥៤នបរទសវតណម": 485,
+        "វតណម-យគសមយសទឈនទមខ": 161,
+        "គោលនយោបាយ": 130,
+        "សង្គម": 130,
+        "ឆពទមហសននបតបកសលកទ១៤": 129,
+        "-វប្បធម៌-": 126,
+        "policy-law-km": 105,
+        "economy-life-education-km": 101,
+        "culture-sport-tourism-km": 82,
+        "countryside-km": 78,
+        "news-politics-km": 72,
+        "religious-religion-km": 67,
+        "ទេសចរណ៍": 65,
+        "បទពិសោធន៍ក្នុងអាជីព": 65,
+        "ផលិតផលពិសេសប្រចាំតំបន់": 65,
+        "សហគមន៍បណ្តាជនជាតិវៀតណាម": 65,
+        "បណយតតបរពណ": 58,
+        "ហណយខញសនហ": 40,
+        "good-person-good-deed-km": 26,
+        "តអនកយលដងអវខលអពបរទសវតណម": 26,
+        "សកមមភពបរយទធបរឆងនងករនសទ-iuu": 23,
+        "defence-security-km": 6,
+        "ទវរសបបរសធម": 2
+      },
+      "top_50_words": [
+        {
+          "word": "។",
+          "count": 247189
+        },
+        {
+          "word": "និង",
+          "count": 221065
+        },
+        {
+          "word": "បាន",
+          "count": 163323
+        },
+        {
+          "word": "ក្នុង",
+          "count": 114468
+        },
+        {
+          "word": "មាន",
+          "count": 109569
+        },
+        {
+          "word": "នៅ",
+          "count": 104375
+        },
+        {
+          "word": "របស់",
+          "count": 96577
+        },
+        {
+          "word": "ដែល",
+          "count": 71335
+        },
+        {
+          "word": "លោក",
+          "count": 62697
+        },
+        {
+          "word": "នេះ",
+          "count": 62133
+        },
+        {
+          "word": "ជា",
+          "count": 59316
+        },
+        {
+          "word": "នៃ",
+          "count": 58039
+        },
+        {
+          "word": "ឆ្នាំ",
+          "count": 57530
+        },
+        {
+          "word": "វៀតណាម",
+          "count": 57362
+        },
+        {
+          "word": "ដើម្បី",
+          "count": 51058
+        },
+        {
+          "word": "នឹង",
+          "count": 45080
+        },
+        {
+          "word": "ពី",
+          "count": 42448
+        },
+        {
+          "word": "ថា",
+          "count": 42058
+        },
+        {
+          "word": "ដោយ",
+          "count": 42021
+        },
+        {
+          "word": "ខេត្ត",
+          "count": 40472
+        },
+        {
+          "word": "នោះ",
+          "count": 38570
+        },
+        {
+          "word": "ប្រជាជន",
+          "count": 37088
+        },
+        {
+          "word": "តាម",
+          "count": 36456
+        },
+        {
+          "word": "ប្រទេស",
+          "count": 35456
+        },
+        {
+          "word": "លើ",
+          "count": 35240
+        },
+        {
+          "word": "ដល់",
+          "count": 32024
+        },
+        {
+          "word": "យ៉ាង",
+          "count": 31350
+        },
+        {
+          "word": "ៗ",
+          "count": 31290
+        },
+        {
+          "word": "តំបន់",
+          "count": 30432
+        },
+        {
+          "word": "ក៏",
+          "count": 29788
+        },
+        {
+          "word": "រួម",
+          "count": 29699
+        },
+        {
+          "word": "សម្រាប់",
+          "count": 29613
+        },
+        {
+          "word": "គឺ",
+          "count": 27677
+        },
+        {
+          "word": "ចំនួន",
+          "count": 27670
+        },
+        {
+          "word": "ទៅ",
+          "count": 27271
+        },
+        {
+          "word": "ជនជាតិ",
+          "count": 27130
+        },
+        {
+          "word": "ជាតិ",
+          "count": 27063
+        },
+        {
+          "word": "មួយ",
+          "count": 26613
+        },
+        {
+          "word": "ត្រូវបាន",
+          "count": 25193
+        },
+        {
+          "word": "៕",
+          "count": 24824
+        },
+        {
+          "word": "ជាមួយ",
+          "count": 24813
+        },
+        {
+          "word": "ហើយ",
+          "count": 24565
+        },
+        {
+          "word": "មិន",
+          "count": 24537
+        },
+        {
+          "word": "នូវ",
+          "count": 24252
+        },
+        {
+          "word": "ទាំង",
+          "count": 23609
+        },
+        {
+          "word": "ធ្វើ",
+          "count": 23417
+        },
+        {
+          "word": "គ្រួសារ",
+          "count": 22910
+        },
+        {
+          "word": "ថ្មី",
+          "count": 22781
+        },
+        {
+          "word": "ពេល",
+          "count": 22731
+        },
+        {
+          "word": "ប្រធាន",
+          "count": 20896
+        }
+      ]
+    },
+    "Tay Nung": {
+      "language": "Tay Nung",
+      "corpus_stats": {
+        "n_documents": 5078,
+        "total_tokens": 2222320,
+        "vocabulary_size": 10309,
+        "script": "latin",
+        "sentence_splitter": "Latin .!?…"
+      },
+      "text_metrics": {
+        "word_count": {
+          "mean": 437.636865,
+          "median": 244.0,
+          "std": 428.06232,
+          "min": 20.0,
+          "max": 3726.0,
+          "q1": 131.0,
+          "q3": 683.75
+        },
+        "unique_words": {
+          "mean": 159.895628,
+          "median": 127.0,
+          "std": 115.561822,
+          "min": 13.0,
+          "max": 872.0,
+          "q1": 80.0,
+          "q3": 229.0
+        },
+        "char_count": {
+          "mean": 1929.59551,
+          "median": 1093.5,
+          "std": 1882.026846,
+          "min": 82.0,
+          "max": 16670.0,
+          "q1": 588.0,
+          "q3": 2990.0
+        },
+        "sent_count": {
+          "mean": 13.487003,
+          "median": 8.0,
+          "std": 14.799644,
+          "min": 1.0,
+          "max": 264.0,
+          "q1": 4.0,
+          "q3": 21.0
+        },
+        "para_count": {
+          "mean": 15.725876,
+          "median": 13.0,
+          "std": 13.813328,
+          "min": 5.0,
+          "max": 287.0,
+          "q1": 10.0,
+          "q3": 18.0
+        },
+        "type_token_ratio": {
+          "mean": 0.514437,
+          "median": 0.458715,
+          "std": 0.210009,
+          "min": 0.142515,
+          "max": 1.0,
+          "q1": 0.34087,
+          "q3": 0.66498
+        },
+        "avg_word_len": {
+          "mean": 3.313542,
+          "median": 3.311528,
+          "std": 0.137354,
+          "min": 1.689119,
+          "max": 3.928571,
+          "q1": 3.236103,
+          "q3": 3.390073
+        },
+        "avg_sent_len": {
+          "mean": 34.752933,
+          "median": 33.048538,
+          "std": 10.835511,
+          "min": 10.0,
+          "max": 202.333333,
+          "q1": 28.166667,
+          "q3": 39.165179
+        }
+      },
+      "bpe_stats": {
+        "model": "xlm-roberta-base",
+        "special_tokens": "excluded",
+        "total_bpe_tokens": 4169423,
+        "unique_bpe_vocab": 7382,
+        "bpe_token_count": {
+          "mean": 821.075817,
+          "median": 468.0,
+          "std": 752.060505,
+          "min": 26.0,
+          "max": 5609.0,
+          "q1": 253.25,
+          "q3": 1328.0
+        },
+        "bpe_fertility": {
+          "mean": 1.878785,
+          "median": 1.936782,
+          "std": 0.202557,
+          "min": 1.17284,
+          "max": 2.636364,
+          "q1": 1.832854,
+          "q3": 2.004233
+        },
+        "bpe_type_token_ratio": {
+          "mean": 0.416683,
+          "median": 0.371221,
+          "std": 0.223242,
+          "min": 0.098604,
+          "max": 0.978261,
+          "q1": 0.225556,
+          "q3": 0.556997
+        },
+        "top_30_bpe_subwords": [
+          {
+            "token": "n",
+            "count": 139187
+          },
+          {
+            "token": ",",
+            "count": 126429
+          },
+          {
+            "token": "ng",
+            "count": 93324
+          },
+          {
+            "token": "y",
+            "count": 93268
+          },
+          {
+            "token": "▁p",
+            "count": 81158
+          },
+          {
+            "token": "ạ",
+            "count": 67592
+          },
+          {
+            "token": ".",
+            "count": 59414
+          },
+          {
+            "token": "a",
+            "count": 57935
+          },
+          {
+            "token": "ư",
+            "count": 57286
+          },
+          {
+            "token": "▁l",
+            "count": 54761
+          },
+          {
+            "token": "ả",
+            "count": 53951
+          },
+          {
+            "token": "c",
+            "count": 48828
+          },
+          {
+            "token": "ọ",
+            "count": 48053
+          },
+          {
+            "token": "i",
+            "count": 47699
+          },
+          {
+            "token": "▁đ",
+            "count": 46292
+          },
+          {
+            "token": "▁",
+            "count": 44633
+          },
+          {
+            "token": "m",
+            "count": 42913
+          },
+          {
+            "token": "▁n",
+            "count": 40897
+          },
+          {
+            "token": "▁bại",
+            "count": 40087
+          },
+          {
+            "token": "ẩ",
+            "count": 39406
+          },
+          {
+            "token": "ỉ",
+            "count": 39215
+          },
+          {
+            "token": "▁t",
+            "count": 38649
+          },
+          {
+            "token": "▁sl",
+            "count": 38522
+          },
+          {
+            "token": "▁m",
+            "count": 38436
+          },
+          {
+            "token": "▁hết",
+            "count": 38363
+          },
+          {
+            "token": "▁x",
+            "count": 37471
+          },
+          {
+            "token": "u",
+            "count": 35861
+          },
+          {
+            "token": "▁no",
+            "count": 35378
+          },
+          {
+            "token": "▁v",
+            "count": 30323
+          },
+          {
+            "token": "▁ch",
+            "count": 28622
+          }
+        ]
+      },
+      "vocab_extension": {
+        "fragmentation_ratio": {
+          "mean": 1.878785,
+          "median": 1.936782,
+          "std": 0.202557,
+          "min": 1.17284,
+          "max": 2.636364,
+          "q1": 1.832854,
+          "q3": 2.004233
+        },
+        "long_split_ratio": {
+          "mean": 0.041723,
+          "median": 0.038295,
+          "std": 0.025299,
+          "min": 0.0,
+          "max": 0.230769,
+          "q1": 0.027037,
+          "q3": 0.052632
+        },
+        "tokenizer_coverage": {
+          "mean": 0.406912,
+          "median": 0.379016,
+          "std": 0.112039,
+          "min": 0.033333,
+          "max": 0.852399,
+          "q1": 0.342105,
+          "q3": 0.431231
+        },
+        "threshold_fragmentation": 2.0,
+        "threshold_long_split": 0.3,
+        "threshold_coverage": 0.5,
+        "n_signals_triggered": 1,
+        "signals": [
+          "Tokenizer coverage 0.41 < 0.50 → <50% single-token words"
+        ],
+        "recommendation": "CONSIDER extending vocabulary — marginal signal"
+      },
+      "category_distribution": {
+        "CHUONG_TRINH_PHAT_THANH_HANG_NGAY": 1574,
+        "TIN_TUC_SU_KIEN": 1179,
+        "AM_NHAC_TAY_NUNG": 496,
+        "CA_NHAC_MOI": 287,
+        "DU_LICH": 212,
+        "BAN_CUA_NHA_NONG": 202,
+        "TIM_HIEU_VAN_HOA_DAN_TOC_ANH_EM": 192,
+        "NGUOI_TOT_VIEC_TOT": 191,
+        "SUC_KHOE_VA_DOI_SONG": 173,
+        "CHINH_SACH_PHAP_LUAT": 168,
+        "DAN_CA": 158,
+        "THINH_GIA_VOI_CHUONG_TRINH": 144,
+        "CHUYEN_BAN_LANG": 102
+      },
+      "top_50_words": [
+        {
+          "word": "bại",
+          "count": 43407
+        },
+        {
+          "word": "hết",
+          "count": 40012
+        },
+        {
+          "word": "noọng",
+          "count": 34817
+        },
+        {
+          "word": "pỉ",
+          "count": 33461
+        },
+        {
+          "word": "đảy",
+          "count": 29298
+        },
+        {
+          "word": "cúa",
+          "count": 28149
+        },
+        {
+          "word": "dú",
+          "count": 26154
+        },
+        {
+          "word": "lẻ",
+          "count": 24192
+        },
+        {
+          "word": "cần",
+          "count": 23168
+        },
+        {
+          "word": "mì",
+          "count": 22696
+        },
+        {
+          "word": "chang",
+          "count": 19800
+        },
+        {
+          "word": "vạ",
+          "count": 19250
+        },
+        {
+          "word": "đây",
+          "count": 18501
+        },
+        {
+          "word": "lai",
+          "count": 17851
+        },
+        {
+          "word": "sle",
+          "count": 17504
+        },
+        {
+          "word": "hẩư",
+          "count": 17054
+        },
+        {
+          "word": "thâng",
+          "count": 16087
+        },
+        {
+          "word": "tỉ",
+          "count": 14938
+        },
+        {
+          "word": "lườn",
+          "count": 13933
+        },
+        {
+          "word": "kin",
+          "count": 13915
+        },
+        {
+          "word": "vằn",
+          "count": 12783
+        },
+        {
+          "word": "nẩy",
+          "count": 12596
+        },
+        {
+          "word": "pi",
+          "count": 12389
+        },
+        {
+          "word": "tàng",
+          "count": 12243
+        },
+        {
+          "word": "đạ",
+          "count": 11551
+        },
+        {
+          "word": "bản",
+          "count": 11255
+        },
+        {
+          "word": "xáu",
+          "count": 11236
+        },
+        {
+          "word": "slảnh",
+          "count": 10928
+        },
+        {
+          "word": "pây",
+          "count": 10077
+        },
+        {
+          "word": "pang",
+          "count": 9905
+        },
+        {
+          "word": "fấn",
+          "count": 9669
+        },
+        {
+          "word": "nặm",
+          "count": 9625
+        },
+        {
+          "word": "búng",
+          "count": 9428
+        },
+        {
+          "word": "có",
+          "count": 9205
+        },
+        {
+          "word": "pền",
+          "count": 9138
+        },
+        {
+          "word": "nắm",
+          "count": 9099
+        },
+        {
+          "word": "cạ",
+          "count": 9038
+        },
+        {
+          "word": "pửa",
+          "count": 8972
+        },
+        {
+          "word": "chắc",
+          "count": 8475
+        },
+        {
+          "word": "mừa",
+          "count": 8266
+        },
+        {
+          "word": "thình",
+          "count": 8253
+        },
+        {
+          "word": "chay",
+          "count": 7892
+        },
+        {
+          "word": "pện",
+          "count": 7884
+        },
+        {
+          "word": "xày",
+          "count": 7815
+        },
+        {
+          "word": "tó",
+          "count": 7692
+        },
+        {
+          "word": "xạ",
+          "count": 7531
+        },
+        {
+          "word": "ăn",
+          "count": 7301
+        },
+        {
+          "word": "tứ",
+          "count": 7243
+        },
+        {
+          "word": "chỏi",
+          "count": 7218
+        },
+        {
+          "word": "nâng",
+          "count": 7213
+        }
+      ]
+    }
+  }
+}

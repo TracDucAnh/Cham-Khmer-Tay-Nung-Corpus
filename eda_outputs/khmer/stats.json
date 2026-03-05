@@ -1,0 +1,510 @@
+{
+  "language": "Khmer",
+  "corpus_stats": {
+    "n_documents": 27808,
+    "total_tokens": 8481183,
+    "vocabulary_size": 70902,
+    "script": "khmer",
+    "sentence_splitter": "Khmer ។/៕"
+  },
+  "text_metrics": {
+    "word_count": {
+      "mean": 304.990758,
+      "median": 218.0,
+      "std": 222.26248,
+      "min": 3.0,
+      "max": 5351.0,
+      "q1": 153.0,
+      "q3": 445.0
+    },
+    "unique_words": {
+      "mean": 160.490219,
+      "median": 133.0,
+      "std": 79.42627,
+      "min": 3.0,
+      "max": 993.0,
+      "q1": 101.0,
+      "q3": 221.0
+    },
+    "char_count": {
+      "mean": 1806.435666,
+      "median": 1294.0,
+      "std": 1315.428054,
+      "min": 11.0,
+      "max": 29983.0,
+      "q1": 897.75,
+      "q3": 2691.0
+    },
+    "sent_count": {
+      "mean": 10.575266,
+      "median": 7.0,
+      "std": 8.881478,
+      "min": 1.0,
+      "max": 179.0,
+      "q1": 4.0,
+      "q3": 16.0
+    },
+    "para_count": {
+      "mean": 4.096519,
+      "median": 3.0,
+      "std": 2.934689,
+      "min": 1.0,
+      "max": 99.0,
+      "q1": 2.0,
+      "q3": 5.0
+    },
+    "type_token_ratio": {
+      "mean": 0.592683,
+      "median": 0.595745,
+      "std": 0.114047,
+      "min": 0.087116,
+      "max": 1.0,
+      "q1": 0.505319,
+      "q3": 0.671875
+    },
+    "avg_word_len": {
+      "mean": 5.182339,
+      "median": 5.201457,
+      "std": 0.44049,
+      "min": 2.2,
+      "max": 7.296296,
+      "q1": 4.873062,
+      "q3": 5.494429
+    },
+    "avg_sent_len": {
+      "mean": 31.747934,
+      "median": 29.857143,
+      "std": 10.197299,
+      "min": 3.0,
+      "max": 174.0,
+      "q1": 24.8,
+      "q3": 36.7
+    }
+  },
+  "bpe_stats": {
+    "model": "xlm-roberta-base",
+    "special_tokens": "excluded",
+    "total_bpe_tokens": 16168887,
+    "unique_bpe_vocab": 15640,
+    "bpe_token_count": {
+      "mean": 581.447317,
+      "median": 376.0,
+      "std": 463.891574,
+      "min": 6.0,
+      "max": 9668.0,
+      "q1": 257.0,
+      "q3": 922.0
+    },
+    "bpe_fertility": {
+      "mean": 1.835851,
+      "median": 1.719424,
+      "std": 0.336027,
+      "min": 1.118421,
+      "max": 4.12,
+      "q1": 1.609623,
+      "q3": 1.957567
+    },
+    "bpe_type_token_ratio": {
+      "mean": 0.518963,
+      "median": 0.55,
+      "std": 0.156914,
+      "min": 0.058299,
+      "max": 1.0,
+      "q1": 0.382898,
+      "q3": 0.638462
+    },
+    "top_30_bpe_subwords": [
+      {
+        "token": "▁",
+        "count": 1441711
+      },
+      {
+        "token": "។",
+        "count": 198303
+      },
+      {
+        "token": "▁និង",
+        "count": 161122
+      },
+      {
+        "token": "ស",
+        "count": 118760
+      },
+      {
+        "token": "រ",
+        "count": 104714
+      },
+      {
+        "token": "ការ",
+        "count": 97264
+      },
+      {
+        "token": "▁ការ",
+        "count": 96676
+      },
+      {
+        "token": "ម",
+        "count": 94703
+      },
+      {
+        "token": "ប",
+        "count": 92802
+      },
+      {
+        "token": "▁ប្រ",
+        "count": 89640
+      },
+      {
+        "token": "▁បាន",
+        "count": 88711
+      },
+      {
+        "token": "ក",
+        "count": 84027
+      },
+      {
+        "token": "▁ជា",
+        "count": 80013
+      },
+      {
+        "token": "ណ",
+        "count": 79037
+      },
+      {
+        "token": "ង",
+        "count": 75671
+      },
+      {
+        "token": "ា",
+        "count": 75129
+      },
+      {
+        "token": "ល",
+        "count": 71939
+      },
+      {
+        "token": "ន",
+        "count": 70005
+      },
+      {
+        "token": "ជា",
+        "count": 69984
+      },
+      {
+        "token": "បាន",
+        "count": 69609
+      },
+      {
+        "token": "្",
+        "count": 69594
+      },
+      {
+        "token": "ប្រ",
+        "count": 63754
+      },
+      {
+        "token": "ហ",
+        "count": 60991
+      },
+      {
+        "token": "ភាព",
+        "count": 60904
+      },
+      {
+        "token": "ត",
+        "count": 58567
+      },
+      {
+        "token": "របស់",
+        "count": 57169
+      },
+      {
+        "token": "▁នៅ",
+        "count": 56153
+      },
+      {
+        "token": "ិ",
+        "count": 55692
+      },
+      {
+        "token": "▁ក្នុង",
+        "count": 55291
+      },
+      {
+        "token": "▁មាន",
+        "count": 54076
+      }
+    ]
+  },
+  "vocab_extension": {
+    "fragmentation_ratio": {
+      "mean": 1.835851,
+      "median": 1.719424,
+      "std": 0.336027,
+      "min": 1.118421,
+      "max": 4.12,
+      "q1": 1.609623,
+      "q3": 1.957567
+    },
+    "long_split_ratio": {
+      "mean": 0.449924,
+      "median": 0.515915,
+      "std": 0.246265,
+      "min": 0.0,
+      "max": 1.0,
+      "q1": 0.340909,
+      "q3": 0.622327
+    },
+    "tokenizer_coverage": {
+      "mean": 0.240108,
+      "median": 0.2,
+      "std": 0.158924,
+      "min": 0.0,
+      "max": 0.797153,
+      "q1": 0.115385,
+      "q3": 0.352662
+    },
+    "threshold_fragmentation": 2.0,
+    "threshold_long_split": 0.3,
+    "threshold_coverage": 0.5,
+    "n_signals_triggered": 2,
+    "signals": [
+      "Long-split ratio 0.45 > 0.30 → many words split >3 pieces",
+      "Tokenizer coverage 0.24 < 0.50 → <50% single-token words"
+    ],
+    "recommendation": "EXTEND VOCABULARY — strong evidence of poor tokenizer coverage"
+  },
+  "category_distribution": {
+    "ពតមន": 16445,
+    "": 6860,
+    "កររកឃញវតណម": 697,
+    "បទយកករណថងសរ": 602,
+    "មនសសវតណម": 584,
+    "សដឋកចចវតណម": 513,
+    "ពណរបសជនជតទង៥៤នបរទសវតណម": 485,
+    "វតណម-យគសមយសទឈនទមខ": 161,
+    "គោលនយោបាយ": 130,
+    "សង្គម": 130,
+    "ឆពទមហសននបតបកសលកទ១៤": 129,
+    "-វប្បធម៌-": 126,
+    "policy-law-km": 105,
+    "economy-life-education-km": 101,
+    "culture-sport-tourism-km": 82,
+    "countryside-km": 78,
+    "news-politics-km": 72,
+    "religious-religion-km": 67,
+    "ទេសចរណ៍": 65,
+    "បទពិសោធន៍ក្នុងអាជីព": 65,
+    "ផលិតផលពិសេសប្រចាំតំបន់": 65,
+    "សហគមន៍បណ្តាជនជាតិវៀតណាម": 65,
+    "បណយតតបរពណ": 58,
+    "ហណយខញសនហ": 40,
+    "good-person-good-deed-km": 26,
+    "តអនកយលដងអវខលអពបរទសវតណម": 26,
+    "សកមមភពបរយទធបរឆងនងករនសទ-iuu": 23,
+    "defence-security-km": 6,
+    "ទវរសបបរសធម": 2
+  },
+  "top_50_words": [
+    {
+      "word": "។",
+      "count": 247189
+    },
+    {
+      "word": "និង",
+      "count": 221065
+    },
+    {
+      "word": "បាន",
+      "count": 163323
+    },
+    {
+      "word": "ក្នុង",
+      "count": 114468
+    },
+    {
+      "word": "មាន",
+      "count": 109569
+    },
+    {
+      "word": "នៅ",
+      "count": 104375
+    },
+    {
+      "word": "របស់",
+      "count": 96577
+    },
+    {
+      "word": "ដែល",
+      "count": 71335
+    },
+    {
+      "word": "លោក",
+      "count": 62697
+    },
+    {
+      "word": "នេះ",
+      "count": 62133
+    },
+    {
+      "word": "ជា",
+      "count": 59316
+    },
+    {
+      "word": "នៃ",
+      "count": 58039
+    },
+    {
+      "word": "ឆ្នាំ",
+      "count": 57530
+    },
+    {
+      "word": "វៀតណាម",
+      "count": 57362
+    },
+    {
+      "word": "ដើម្បី",
+      "count": 51058
+    },
+    {
+      "word": "នឹង",
+      "count": 45080
+    },
+    {
+      "word": "ពី",
+      "count": 42448
+    },
+    {
+      "word": "ថា",
+      "count": 42058
+    },
+    {
+      "word": "ដោយ",
+      "count": 42021
+    },
+    {
+      "word": "ខេត្ត",
+      "count": 40472
+    },
+    {
+      "word": "នោះ",
+      "count": 38570
+    },
+    {
+      "word": "ប្រជាជន",
+      "count": 37088
+    },
+    {
+      "word": "តាម",
+      "count": 36456
+    },
+    {
+      "word": "ប្រទេស",
+      "count": 35456
+    },
+    {
+      "word": "លើ",
+      "count": 35240
+    },
+    {
+      "word": "ដល់",
+      "count": 32024
+    },
+    {
+      "word": "យ៉ាង",
+      "count": 31350
+    },
+    {
+      "word": "ៗ",
+      "count": 31290
+    },
+    {
+      "word": "តំបន់",
+      "count": 30432
+    },
+    {
+      "word": "ក៏",
+      "count": 29788
+    },
+    {
+      "word": "រួម",
+      "count": 29699
+    },
+    {
+      "word": "សម្រាប់",
+      "count": 29613
+    },
+    {
+      "word": "គឺ",
+      "count": 27677
+    },
+    {
+      "word": "ចំនួន",
+      "count": 27670
+    },
+    {
+      "word": "ទៅ",
+      "count": 27271
+    },
+    {
+      "word": "ជនជាតិ",
+      "count": 27130
+    },
+    {
+      "word": "ជាតិ",
+      "count": 27063
+    },
+    {
+      "word": "មួយ",
+      "count": 26613
+    },
+    {
+      "word": "ត្រូវបាន",
+      "count": 25193
+    },
+    {
+      "word": "៕",
+      "count": 24824
+    },
+    {
+      "word": "ជាមួយ",
+      "count": 24813
+    },
+    {
+      "word": "ហើយ",
+      "count": 24565
+    },
+    {
+      "word": "មិន",
+      "count": 24537
+    },
+    {
+      "word": "នូវ",
+      "count": 24252
+    },
+    {
+      "word": "ទាំង",
+      "count": 23609
+    },
+    {
+      "word": "ធ្វើ",
+      "count": 23417
+    },
+    {
+      "word": "គ្រួសារ",
+      "count": 22910
+    },
+    {
+      "word": "ថ្មី",
+      "count": 22781
+    },
+    {
+      "word": "ពេល",
+      "count": 22731
+    },
+    {
+      "word": "ប្រធាន",
+      "count": 20896
+    }
+  ]
+}
