@@ -16,21 +16,6 @@ Overall, the corpus contains over 44,000 documents and more than 36 million subw
 | Sentences | 301,317 | 294,077 | 68,487 | 663,881 |
 | Subword Tokens | 15,706,638 | 16,168,887 | 4,169,423 | 36,044,948 |
 
-# Intended Use
-
-This corpus is designed for:
-
-- Low-resource NLP research
-
-- Language modeling and representation learning
-
-- Cross-lingual and multilingual NLP studies
-
-- Linguistic analysis of minority languages in Vietnam
-
-- Benchmarking tokenization and segmentation methods for Southeast Asian languages
-
-By releasing this dataset, we hope to facilitate research on underrepresented languages and encourage the development of language technologies for minority communities.
 
 # Cham
 
@@ -48,3 +33,19 @@ By releasing this dataset, we hope to facilitate research on underrepresented la
 ![tay-nung](/eda_outputs/tay-nung/tay%20nung_09_sentence_counts.png)
 
 ![tay-nung](/eda_outputs/tay-nung/tay%20nung_07_wordcloud.png)
+
+# Intended Use
+
+This corpus is designed for:
+
+- Low-resource NLP research
+
+- Language modeling and representation learning
+
+- Cross-lingual and multilingual NLP studies
+
+- Linguistic analysis of minority languages in Vietnam
+
+- Benchmarking tokenization and segmentation methods for Southeast Asian languages
+
+By releasing this dataset, we hope to facilitate research on underrepresented languages and encourage the development of language technologies for minority communities.
