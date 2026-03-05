@@ -1,0 +1,9 @@
+transformers 
+tqdm 
+sentencepiece
+matplotlib 
+seaborn 
+wordcloud 
+pandas 
+numpy
+khmer-nltk
