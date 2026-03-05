@@ -1,2 +1,4 @@
 venv/
 processed_data/
+.DS_Store/
+__pycache__/
