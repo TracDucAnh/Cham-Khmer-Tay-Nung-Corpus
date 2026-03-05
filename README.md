@@ -19,20 +19,20 @@ Overall, the corpus contains over 44,000 documents and more than 36 million subw
 
 # Cham
 
-![cham](/eda_outputs/cham/cham_09_sentence_counts.png)
+![cham](/eda_outputs/cham/09_sentence_counts.png)
 
-![chamwords](/eda_outputs/cham/cham_07_wordcloud.png)
+![chamwords](/eda_outputs/cham/07_wordcloud.png)
 
 # Khmer
-![khmer](/eda_outputs/khmer/khmer_09_sentence_counts.png)
+![khmer](/eda_outputs/khmer/09_sentence_counts.png)
 
-![khmerword](/eda_outputs/khmer/khmer_10_bpe_analysis.png)
+![khmerword](/eda_outputs/khmer/11_vocab_extension_assessment.png)
 
 # Tay-Nung
 
-![tay-nung](/eda_outputs/tay-nung/tay%20nung_09_sentence_counts.png)
+![tay-nung](/eda_outputs/tay-nung/09_sentence_counts.png)
 
-![tay-nung](/eda_outputs/tay-nung/tay%20nung_07_wordcloud.png)
+![tay-nung](/eda_outputs/tay-nung/07_wordcloud.png)
 
 # Intended Use
 
